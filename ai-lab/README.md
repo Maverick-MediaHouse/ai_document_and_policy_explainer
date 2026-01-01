@@ -6,5 +6,5 @@ Understand how LLM behavior is driven more by instructions and constraints than 
 Key Observation:
 Using the same model (FLAN-T5), different instructions produce different behaviors even across similar pipelines.
 
-Status:
+Current Status:
 Foundational learning. Not production-ready.
