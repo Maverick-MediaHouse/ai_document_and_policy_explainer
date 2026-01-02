@@ -11,8 +11,8 @@ Foundational learning. Not production-ready.
 
 # Day 2 - File Summarizer
 
-Goal:
-Understand:
+Learned that chunking is required due to context limits, but naive chunking causes loss of global coherence, repetition, and structural confusion unless document sections are explicitly preserved.
+Goal: Understand:
 1. How NLP systems handle file inputs, not just raw strings
 2. How document length forces chunking (a real-world constraint)
 3. How summaries degrade if structure is ignored
