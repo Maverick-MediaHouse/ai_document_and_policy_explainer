@@ -1,0 +1,103 @@
+AI is going to be the tipping point in technological evolution of mankind, with human dependence on 
+machines and algorithms for decision making never been such deep. Thus, any strategy document on 
+promoting AI, necessarily needs to be conscious of the probable factors of the AI ecosystem that may 
+undermine ethical conduct, impinge on one’s privacy and undermine the security protocol. Appropriate 
+steps to mitigate these risks need to be an integral part of any such strategy.  
+While the issue of ethics would concern the biases that an AI system can propagate, the privacy concerns 
+are largely on collection and inappropriate use of data for personal discrimination. Issue of security arises 
+from the implications and the consequent accountability of any AI system. 
+While addressing the above issues, one needs to be conscious of the potential vulnerabilities of our 
+extant regulatory and societal structures which are dependent on human judgment and control, and thus 
+subject to inherent biases and discrimination. Thus, to say that extant decision making systems – 
+individual, societal, regulatory or even judicial – are entirely devoid of these shortcomings would be a 
+fallacy as these are dependent upon human limitations of knowledge, precedent, rationale and bias 
+(explicit or subconscious). Delegation of some aspects of that decision making to algorithms, which may 
+well be able to ingest and process many more parameters as compared to a human, may likely result in 
+systems with reduced bias, discrimination and improved privacy protection. However, even if a 
+technological intervention helps us delegate that responsibility to an algorithm with improved outcomes, 
+it is extremely important that we set much higher standards for privacy and protection in case of AI tools. 
+Ethics and AI: 
+Fairness / tackling the biases AI 
+Based on the premise that a large set of well-diversified data may be an accurate description of the world, 
+most of the developer community takes a technocratic attitude that data-driven decision making is good 
+and algorithms are neutral. However, this argument does not recognise the fact that the existing data 
+may have biases, which may have got reinforced over time. The issue of fairness is at the forefront of 
+discussion in academic, research and policy fora, and definitely merits a combined dialogue and 
+sustained research to come to an acceptable resolution. One possible way to approach this would be to 
+identify the in-built biases and assess their impact, and in turn find ways to reduce the bias. This reactive 
+approach, use-case based, may help till the time we find techniques to bring neutrality to data feeding AI 
+solutions, or build AI solutions that ensure neutrality despite inherent biases.
+Transparency / opening the “Black Box” 
+Presently, most AI solutions suffer from what is commonly known as the “Black Box Phenomenon”, with 
+very little or no understanding of what happens in between and only the input data and results being the 
+known factors. This is due to the reliance in most current AI systems to incrementally improve the 
+performance as defined by a narrow set of parameters, with developer’s emphasis being less on how the algorithms are achieving the requisite success. However, calls for explaining the decision-making 
+process will gain momentum as AI systems are increasingly relied upon for decision making that has 
+significant consequences for a large section of population.  
+Opening the Black Box, assuming it is possible and useful at this stage (there is considerable debate on 
+that as well), should not aim towards opening of code or technical disclosure – few clients of AI solutions 
+would be sophisticated AI experts - but should rather aim at “explainability”. With extended disclosure 
+though, what needs to be balanced is whether the algorithm’s parameter may induce the individuals and 
+companies to change their behavior and in turn game the system. Clearly, more collaborative research 
+is required in this area. 
+Privacy and AI:
+AI models, solutions and their application depend on generation, collection and processing of large 
+amounts of data on individual, entity and community behaviour. Data collection without proper consent, 
+privacy of personal data, inherent selection biases and resultant risk of profiling and discrimination, and 
+non-transparent nature of AI solutions are some of the issues requiring deliberation and proper recourse.  
+However, the current debate on data usage have two distinct aspects. Firstly, there are concerns that 
+companies are harvesting significant amounts of consumer data and using it inappropriately to gain 
+insights about consumers. Key here is that the consumer may not have access to these insights or the 
+ability to derive value from them. Beyond compliance, companies can consider how to create awareness 
+of how they use consumer information and the value they provide in return, which can build trust in their 
+brand and services. 
+Secondly, there are concerns that companies are amassing large data sets and thereby building an unfair 
+competitive advantage. Datasets themselves have little intrinsic value without the ability to extract 
+meaning from them. The dataset is a necessary, but not the only, component of delivering meaningful 
+insights from data. Having the tools to analyse it and the experience to understand its meaning are the 
+others. While those that have access to large datasets and by the nature of their business models have 
+data network effects, which enables them in turn to build a first mover advantage when it comes to 
+perfecting their algorithms and driving business value, this does not necessarily negatively impact the 
+consumer.
+
+Dealing with privacy issues:
+a. Establish a data protection framework with legal backing: The work being done by Justice 
+Srikrishna Committee on data protection law is very opportune and timely. The 7-core principles 
+of data protection and privacy – informed consent, technology agnosticism, data controller 
+accountability, data minimisation, holistic application, deterrent penalties and structured 
+enforcement – are quite comprehensive and should provide a strong privacy protection regime 
+in the country once enacted.  
+b. Establish sectoral regulatory frameworks: Apart from having a central privacy protection law, due 
+to diverse and fast changing nature of the technology, sectoral regulatory frameworks may also 
+act as additional protection to user privacy and security. Japan and Germany have developed 
+new frameworks applicable to specific AI issues such as regulating next generation robots and 
+self-driving cars respectively.  
+c. Benchmark national data protection and privacy laws with international standards: European 
+Union’s General Data Protection Regulation (GDPR) guidelines, which have been enforced in 
+May 2018, encourage design of less-privacy invasive systems. French laws give a right to 
+explanation for administrative algorithmic decisions, making it much more comprehensive than 
+GDPR on administrative decisions. India’s privacy protection regime will have to be continually 
+updated to reflect understanding of new risks and their impact.  
+d. Encourage AI developers to adhere to international standards: Leaders and practitioners from 
+across the world have come together to frame standards for safe and privacy preserving AI. The 
+Global Initiative on Ethics of Autonomous and Intelligent Systems of the IEEE has a chapter on 
+‘Personal Data and Individual Access Control in Ethically Aligned Design’. Indian enterprises and 
+developers need to build these standards into AI design itself. 
+e. Encourage self-regulation: Data Privacy Impact Assessment Tools can be used by AI developers 
+and enterprises adopting AI solutions to manage privacy risks.
+f. Invest and collaborate in privacy preserving AI research: New mathematical models for 
+preserving privacy are being researched upon where risks of data exploitation and personal 
+identification (from an anonymised dataset) can be reduced by limiting information one can gain 
+from released data, irrespective of amount of side information available otherwise. India should 
+collaborate on areas of research like Differential Privacy, Privacy by Design, Safety-Critical AI 
+and Multi-Party Computations which enable protection of privacy despite data sharing at a wide 
+scale.  
+g. Spread awareness: Privacy has been termed as a fundamental right by the Supreme Court of 
+India. The protection of this right with its multiple facets in a fast-changing technological 
+environment will not just depend on State enforcement but by also making the citizens aware of 
+their rights and how they can protect them. People often unknowingly give consent to sharing 
+their data which they would not have ordinarily done had they known the purpose their data were 
+being put to. There is an urgent need to spread awareness among the individuals about the 
+importance of consent, ethics and privacy while dealing with technology. A pan-India campaign 
+in multiple languages, and inclusion of privacy rights in school and college curriculum can serve 
+as effective mass outreach mediums to spread awareness.
