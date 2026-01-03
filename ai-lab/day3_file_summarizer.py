@@ -19,7 +19,7 @@ def read_sections(file_path):
                 sections[current_section] += line + " "
     return sections
 
-sections = read_sections("sample.txt")
+sections = read_sections("sample_text.txt")
 
 structured_summary = {}
 
@@ -54,3 +54,4 @@ for section, summary in structured_summary.items():
     print(f"{section}:")
     print(summary)
     print("-" * 40)
+
