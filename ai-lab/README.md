@@ -36,9 +36,12 @@ Constraints outweigh creativity in production systems: Explicit rules such as no
 
 Current Status:
 Transitioned from ad-hoc prompting to constraint-driven, structure-aware summarization
+
 Developing intuition for LLM failure analysis based on input quality and control design
+
 Positioned to move from exploratory learning to comparative and evaluative outputs (Day 4 focus)
 
 ### This stage marks a shift from learning how to use LLMs to understanding how LLM behavior is operationally controlled in real systems.
 1: Structure is an external control mechanism. LLMs do not discover structure — they obey structure.
+
 2: Prompting cannot compensate for weak source material. Repetition is often a signal of low information density, not model failure.
