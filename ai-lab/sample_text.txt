@@ -1,304 +1,109 @@
-Ethical Consideration in Autism Detection using AI
-Sheetal Mavi1 and Sameer Mandal2
+## Introdution
 
-1.	Introduction
-AI offers transformative potential in autism detection, benefiting both healthcare and society. Yet, its application raises complex ethical challenges that don’t overturn established scientific norms but demand fresh guidance for responsible use. This chapter outlines AI’s utility in autism care and presents key recommendations to ensure its ethical deployment. Researchers are responsible for detecting, articulating, mitigating, and managing biases and errors in AI systems.
-1.	Researchers must clearly disclose and explain how AI is used in their work—along with its limitations—in language that is accessible to both experts and non-experts; Researchers should engage affected communities and stakeholders to foster collaboration, ensure inclusive participation, and address concerns—especially those related to bias—in AI applications;
-2.	Researchers using artificial data should:
-(a)	Clearly indicate which data is artificially generated
-(b)	Label the synthetic data explicitly
-(c)	Provide details on how the data was created
-(d)	Explain the rationale and methodology behind its use
-3.	AI contributions to research should be transparently acknowledged, with efforts made to formally credit their role in the investigative process.
-4.	The responsible integration of technology and AI into educational frameworks should be actively promoted to uphold ethical standards.
+AI is going to be the tipping point in technological evolution of mankind, with human dependence on 
+machines and algorithms for decision making never been such deep. Thus, any strategy document on 
+promoting AI, necessarily needs to be conscious of the probable factors of the AI ecosystem that may 
+undermine ethical conduct, impinge on one’s privacy and undermine the security protocol. Appropriate 
+steps to mitigate these risks need to be an integral part of any such strategy.  
+While the issue of ethics would concern the biases that an AI system can propagate, the privacy concerns 
+are largely on collection and inappropriate use of data for personal discrimination. Issue of security arises 
+from the implications and the consequent accountability of any AI system.
+While addressing the above issues, one needs to be conscious of the potential vulnerabilities of our 
+extant regulatory and societal structures which are dependent on human judgment and control, and thus 
+subject to inherent biases and discrimination. Thus, to say that extant decision making systems – 
+individual, societal, regulatory or even judicial – are entirely devoid of these shortcomings would be a 
+fallacy as these are dependent upon human limitations of knowledge, precedent, rationale and bias 
+(explicit or subconscious). Delegation of some aspects of that decision making to algorithms, which may 
+well be able to ingest and process many more parameters as compared to a human, may likely result in 
+systems with reduced bias, discrimination and improved privacy protection. However, even if a 
+technological intervention helps us delegate that responsibility to an algorithm with improved outcomes, 
+it is extremely important that we set much higher standards for privacy and protection in case of AI tools. 
 
-1.1	Overview of AI in Healthcare
-Artificial intelligence replicates human tasks like reasoning, learning, and decision-making. In healthcare, it has significantly enhanced diagnosis, patient management, and treatment planning. For autism spectrum disorder (ASD), AI leverages speech, facial cues, and behavioral data to support early detection and intervention. Despite AI’s transformative potential in healthcare, its ethical
+## Ethics and AI:
 
-1 Assistant Professor, Bharati College, University of Delhi, New Delhi, India.
-2 Research Scholar, University of Delhi, New Delhi, India.
-* Corresponding author: sameermandal.business@gmail.com
- 
-90	Artificial Intelligence in Detecting Autism
+Fairness / tackling the biases AI based on the premise that a large set of well-diversified data may be an accurate description of the world, 
+most of the developer community takes a technocratic attitude that data-driven decision making is good 
+and algorithms are neutral. However, this argument does not recognise the fact that the existing data 
+may have biases, which may have got reinforced over time. The issue of fairness is at the forefront of 
+discussion in academic, research and policy fora, and definitely merits a combined dialogue and 
+sustained research to come to an acceptable resolution. One possible way to approach this would be to 
+identify the in-built biases and assess their impact, and in turn find ways to reduce the bias. This reactive 
+approach, use-case based, may help till the time we find techniques to bring neutrality to data feeding AI 
+solutions, or build AI solutions that ensure neutrality despite inherent biases.
+Transparency / opening the “Black Box” 
+Presently, most AI solutions suffer from what is commonly known as the “Black Box Phenomenon”, with 
+very little or no understanding of what happens in between and only the input data and results being the 
+known factors. This is due to the reliance in most current AI systems to incrementally improve the 
+performance as defined by a narrow set of parameters, with developer’s emphasis being less on how the algorithms are achieving the requisite success. However, calls for explaining the decision-making 
+process will gain momentum as AI systems are increasingly relied upon for decision making that has 
+significant consequences for a large section of population.  
+Opening the Black Box, assuming it is possible and useful at this stage (there is considerable debate on 
+that as well), should not aim towards opening of code or technical disclosure – few clients of AI solutions 
+would be sophisticated AI experts - but should rather aim at “explainability”. With extended disclosure 
+though, what needs to be balanced is whether the algorithm’s parameter may induce the individuals and 
+companies to change their behavior and in turn game the system. Clearly, more collaborative research 
+is required in this area. 
 
-deployment remains critical—especially in complex conditions like autism, where it may reshape diagnosis and treatment. Institutions such as WHO and ICMR have issued formal guidelines to ensure responsible use of AI in biomedical research and clinical practice [5].
-In brief: While core scientific ethics remain intact, AI demands fresh ethical guidelines— especially around bias, error, transparency, and community engagement. Developers must rigorously identify and mitigate biases, while researchers should clearly explain AI methods and limitations in accessible language for all audiences. Synthetic data must be clearly labeled, its generation method disclosed, and its purpose explained. Rather than crediting AI systems as authors or rights holders, their role should be acknowledged as contributory. Ethical training in research should also address the dilemmas posed by AI use. The chapter highlights key ethical concerns in AI-driven autism detection—emphasizing trust, transparency, accountability, and social responsibility in healthcare. Echoing [1], it stresses that human-centered AI must harmonize innovation with empathy. Figure 1 illustrates the progressive stages of AI.
+## Privacy and AI:
 
+AI models, solutions and their application depend on generation, collection and processing of large 
+amounts of data on individual, entity and community behaviour. Data collection without proper consent, 
+privacy of personal data, inherent selection biases and resultant risk of profiling and discrimination, and 
+non-transparent nature of AI solutions are some of the issues requiring deliberation and proper recourse.  
+However, the current debate on data usage have two distinct aspects. Firstly, there are concerns that 
+companies are harvesting significant amounts of consumer data and using it inappropriately to gain 
+insights about consumers. Key here is that the consumer may not have access to these insights or the 
+ability to derive value from them. Beyond compliance, companies can consider how to create awareness 
+of how they use consumer information and the value they provide in return, which can build trust in their 
+brand and services. 
+Secondly, there are concerns that companies are amassing large data sets and thereby building an unfair 
+competitive advantage. Datasets themselves have little intrinsic value without the ability to extract 
+meaning from them. The dataset is a necessary, but not the only, component of delivering meaningful 
+insights from data. Having the tools to analyse it and the experience to understand its meaning are the 
+others. While those that have access to large datasets and by the nature of their business models have 
+data network effects, which enables them in turn to build a first mover advantage when it comes to 
+perfecting their algorithms and driving business value, this does not necessarily negatively impact the 
+consumer.
 
-Fig. 1  Artificial Intelligence stages.
+## Dealing with privacy issues:
 
-Machine learning (ML), a branch of AI, uses data and algorithms to mimic human learning and improve accuracy over time. Common ML models include neural networks, decision trees, and support vector machines. This paper employs artificial neural networks (ANNs) to illustrate core ML principles.
-
-1.1.1	Artificial Neural Networks (ANNs)
-An artificial neural network (ANN) consists of numerous artificial neurons modeled after biological ones. Each neuron processes weighted inputs through a function and produces an output based on a threshold—typically outputting “1” if the threshold is met, and “0” otherwise. Simple Artificial Neuron Example (as shown in Equations 1 and 2)
-if (x1 ◊ w1) + (x2 ◊ w2) + (x3 ◊ w3) + (x4 ◊ w4) > T, then output U = 1	...(7.1)
-if (x1 ◊ w1) + (x2 ◊ w2) + (x3 ◊ w3) + (x4 ◊ w4) ≤ T, then output U = 1	...(7.2)
-Here, x1, x2, x3 and x4 are inputs; w1, w2, w3 and w4 are weights; T is the threshold value; and U
-is the output.
- 
-Ethical Consideration in Autism Detection using AI	91
-
-Input layer	Hidden layers	Output layers
-
-
-
-
-
-
-
-Fig. 2  Structure of Artificial Neural Networks.
-
-
-1.1.2	Structure of ANNs
-A neuron can receive multiple inputs, while an artificial neural network (ANN), as shown in Fig. 3, comprises numerous interconnected neurons. Deep learning ANNs often include several hidden layers between the input and output layers.
-
-1.1.3	Training Artificial Neural Networks
-During ANN training, input weights are adjusted based on each input’s contribution to the neuron’s error—the gap between predicted and actual output. Figure 4 illustrates the supervised and unsupervised learning phases.
-Training can be supervised or unsupervised
-●	Supervised Learning: An ANN learns to recognize patterns by training on labeled data— for instance, it refines its accuracy by processing images tagged “dog” until it consistently identifies them correctly.
- 
-92	Artificial Intelligence in Detecting Autism
-●	Unsupervised Learning:  The ANN discovers inherent structures in the unlabelled data.
-It identifies patterns and relationships that might not be recognized by humans.
-
-Ethical Consideration in Autism Detection using AI
-
-1.1.4	Example of Machine Learning Error
-[2] showed that a Machine Learning system trained on radiological images for COVID-19 diagnosis mistakenly used patient positioning—lying down—as a predictive feature, leading to significant errors due to lack of clinical context. This underscores the need to understand and manage ML errors. Similarly, [3] found that although deep learning can rival radiologists in performance, expert human oversight remains essential in clinical settings.
-
-1.1.5	Benefits and Challenges of Machine Learning
-Though prone to errors, ML systems can uncover novel structures, patterns, and relationships beyond human detection—such as generating new compounds and materials. However, their distinct information-processing methods make ML errors harder to anticipate, interpret, and mitigate.
-
-1.1.6	Training Complexity
-Training artificial neural networks demands substantial resources—large datasets, extensive computing power, and human oversight. Once trained, ML systems can continue learning from diverse data types, including images, audio, video, and medical records.
-
-1.1.7	Case Study: Protein Folding Problem
-A major milestone in ML was solving the protein folding problem—predicting complex 3D structures from amino acid sequences. In 2022, DeepMind’s AlphaFold, trained on extensive sequence and structure data, reached 92.4% accuracy, revolutionizing protein chemistry and advancing biological and medical research. Machine learning—especially via ANNs—offers transformative potential across science and medicine, but its impact depends on ethical deployment, transparency, and robust error management.
-
-1.1.8	About Generative AI
-Generative AI uses deep-learning models to create high-quality text, images, and other content from training data. Unlike pattern recognition systems, it generates original outputs in response to prompts. Figure 5 illustrates its hierarchical workflow in autism detection.
-
-1.1.9	Types of Generative AI
-Among the most well-known forms of generative AI are those powered by large language models, such as ChatGPT and Gemini, which can analyze, edit, and produce text, images, and other content.
-
-1.1.10	Applications and Ethical Considerations
-Researchers have used generative AI to assist in writing scientific papers, occasionally even crediting it as a co-author. Its sophistication has led experts to revise the Turing test to better differentiate human discourse from AI-generated content.
-
-1.1.11	Implications for AI and Society
-Generative AI can transform diverse fields—from boosting productivity to reshaping health and education—by mimicking human thought to produce original content. Yet, it also prompts critical debates on authorship, accountability, and its broader societal impact.
- 
-Artificial Intelligence in Detecting Autism
-
-1.2	Introduction to Autism Spectrum Disorder (ASD)
-Autism spectrum disorder (ASD) is a neurodevelopmental condition marked by challenges in social interaction, communication (both verbal and non-verbal), and repetitive or restricted behaviors. Its severity varies widely across individuals. Figure 6 outlines current treatment approaches.
-Behavioral Interventions
-●	Applied Behavior Analysis (ABA): Applied Behavior Analysis (ABA) is a widely adopted method that uses reinforcement techniques to improve targeted behaviors and skills [7]. It is personalized to support communication, social interaction, and daily functioning.
-●	Early Intensive Behavioral Intervention (EIBI): Early Intensive Behavioral Intervention (EIBI) is a specialized form of ABA applied in early childhood, delivering frequent, high- intensity therapy to enhance long-term developmental outcomes.
-Developmental Approaches
-●	Early Start Denver Model (ESDM): Integrates ABA techniques with developmental psychology to foster cognitive and social development through structured, play-centered interactions.
-Educational Interventions
-●	TEACCH: Uses structured teaching and visual aids to help individuals with autism navigate and adapt to their environment.
-Speech and Language Therapy
-●	Targets enhancement of communication abilities, encompassing language comprehension and use, non-verbal cues, and social engagement.
-Occupational Therapy
-●	Supports sensory integration and fosters daily living abilities, emphasizing fine motor
-development and adaptive self-care techniques.
-Pharmacological Treatments
-●	Medications can help alleviate co-occurring conditions like anxiety, depression, or intense behavioral challenges, but they do not treat the core symptoms of autism.
-
-1.3	How AI is Reshaping Autism Treatment
-1.	Early Diagnosis
-●	AI Algorithms: Machine learning models analyze video and speech data to support early autism diagnosis by detecting subtle patterns often missed by clinicians [8].
-2.	Personalized Interventions
-●	Adaptive Learning Systems: AI-driven tools analyze extensive intervention data and individual responses to create customized therapy plans, enabling more personalized and effective treatment.
-3.	Assistive Technologies
-●	Communication Aids: AI-powered tools help non-verbal individuals express their needs and emotions in ways that caregivers and peers can understand.
-
-4.	Predictive Analytics
-●	Behavioral Forecasting: AI analyzes long-term data to forecast developmental trends, enabling caregivers and clinicians to proactively refine treatment strategies.
-
-1.4	Importance of Ethical Considerations in AI Applications
-As AI use in healthcare grows, ethical concerns—such as algorithmic bias, data privacy, informed consent, and accountability—become increasingly critical. Addressing these is vital to ensure AI supports individuals with ASD without compromising their rights. A human-centered approach is key to safe and effective integration in clinical settings.
-
-2.	Privacy Concerns
-2.1	Data Collection and Storage
-Most AI systems for autism detection rely on diverse datasets—such as facial cues, speech, behavior, genetics, and electronic health records—which require stringent privacy safeguards like anonymization and encryption due to their sensitive nature [10]. Robust protocols must govern data collection and storage to ensure confidentiality and ethical compliance.
-●	Obtain Informed Consent: Patients should be clearly informed about what data is collected, its intended use, and options for updating or deleting it. Data collection must be minimal—limited to what’s essential for AI diagnosis—and avoid unnecessary methods.
-●	Data Security: Robust safeguards—including encryption and access controls—will be implemented to protect sensitive patient data.
-
-2.2	Patient Confidentiality
-Trust in AI and ethical integrity must be fostered through strict protection of patient confidentiality.
-This entails:
-●	Data Anonymisation or Pseudonymisation: Wherever feasible, processing risks should be minimized by using anonymized or pseudonymized personal data.
-●	Conduct Regular Security Audits: Conduct regular security audits and risk assessments to prevent data leaks and ensure compliance with GDPR, HIPAA, and other privacy regulations.
-
-2.3	Challenges of Using AI
-Error
-AI systems inevitably make errors, which are unintended deviations from expected outcomes. It’s essential to distinguish between random errors—isolated and patternless—and systemic errors, which reflect consistent biases in the system. An AI error is a measurable gap between the system’s output and the correct result, assessed quantitatively (e.g., a 2% error rate from 98/100 correct labels) or qualitatively (e.g., converting ratings like “excellent” or “poor” into analyzable metrics).
-AI correctness is defined by domain experts—radiologists for diagnostics, biochemists for protein models, legal professionals for briefs. “Correct” may mean true, acceptable, or desirable, but its judgment ultimately rests with humans. Random versus Systemic Errors (Bias) 
-Random errors resemble scattered bullet holes with no clear pattern, while systemic errors show directional bias. Accuracy measures closeness to the target; precision reflects consistency among the shots. Apparent random errors might reveal a systemic pattern with more information. Systemic errors are often more harmful because they can affect many decisions and projects. For example, biases in intelligence research have historically impacted educational policies. AI systems can also produce both random and systemic errors, which need to be understood and addressed.
-
-3.	Bias in AI Algorithms
-Bias in AI—arising from imbalanced data, flawed design, or labeling errors—can undermine diagnostic fairness. Robust mitigation strategies are essential to promote equitable healthcare outcomes [9].
-
-3.1	Sources & Impact of Bias on Autism Diagnosis
-Bias in AI outputs can arise from various factors, leading to unfair or inaccurate outcomes. Key sources include:
-1.	Training Dataset Bias
-●	Representation: When training data lacks diversity, AI models inherit and reproduce its biases—such as a language model trained only on English struggling with other languages or dialects.
-●	Historical Bias: Datasets often embed historical societal biases—such as discriminatory lending in loan approvals—which AI systems can learn and replicate in their outputs.
-2.	Algorithmic Bias
-●	Feature Selection:  Algorithms prioritize certain features, and if those features carry
-existing biases, the resulting decisions will reflect and reinforce those biases.
-●	Model Design:	Bias may stem from algorithm design —for example, linear models may
-fail to capture complex data patterns, leading to oversimplified and skewed predictions.
-3.	Human Biases
-●	Data Collection: Data collection may introduce bias—especially when survey designs lack inclusivity, leading to overrepresentation of certain group perspectives.
- 
-●	Labelling Bias: Supervised models trained on human-labeled data risk bias, as labels often reflect subjective opinions—e.g., sentiment analysis may misinterpret texts from diverse cultural contexts due to annotator bias.
-●	Development Choices: Development-phase choices—such as feature selection or metric prioritization—can embed bias, reflecting developers’ assumptions and cultural perspectives, and leading to skewed outcomes.
-
-3.2	Lack of Moral Agency in AI Systems
-Narrow AI systems, especially LLMs, lack essential traits of moral agency—such as consciousness, self-awareness, and lived experience—making their use in high-stakes tasks like medical interpretation or research authorship ethically risky. Their inability to bear moral or legal responsibility underscores the urgent need to prioritize ethical safeguards in sensitive AI applications.
-Despite safeguards by companies like OpenAI, fully preventing harmful advice remains difficult—studies show that even models capable of passing medical exams can still deliver inaccurate guidance due to error-proneness and limited contextual understanding.
-
-3.3	Impact and Mitigation Strategies
-AI bias can lead to serious social and ethical consequences—such as perpetuating stereotypes, deepening inequalities, and eroding public trust. To counteract these effects, it is essential to:
-●	Use Diverse Datasets:  Make sure the training data reflects the full diversity of groups the
-AI system may interact with in real-world scenarios.
-●	Audit Algorithms:  Conduct routine bias audits on algorithms and refine them as needed
-to avoid discriminatory results.
-●	Involve Diverse Teams: Include diverse perspectives in the Incorporate varied viewpoints during development to uncover and mitigate potential biases.
-●	Engage with Stakeholders:  Collaborate with affected communities and stakeholders to identify their concerns and incorporate their needs into the AI system’s design and implementation.
-
-4.	Ethical Implications of AI Diagnostics
-4.1	Autonomy and Informed Consent
- Concerning autonomy and informed consent, patients should be fully aware of the deployment of 
- 
-●	 Openness about AI Use:  Be open about the role of AI in their diagnosis, both its benefits
-
-●	 Benefits, Risks, and Alternatives:  A patient should be informed about the probable 
- 
-
-4.2	Accountability and Transparency
-To uphold ethical standards in AI diagnostics, well-defined accountability measures must be
-established. These may include:
-●	  Defined Roles and Responsibilities:  A designated individual/body of individuals should 
-
-●	 Explainable AI:   By creating AI systems with suggestions that are transparent and easy to 
-understand, medical professionals may assess the logic behind the findings critically. Samek
- et al. (2017)[4] emphasize that transparency in AI models is crucial for ethical integration 
-
-●	  The  Human-in-the-Loop  Approach:    Ensures  accountability  and  lowers  the 
- 
-●	 Error Handling and Correction:   To keep AI systems trustworthy and dependable, 
- 
-
-5.1 AI Techniques
- 
-1.	Deep Learning Methods
-●	Convolutional Neural Networks (CNNs):
-●	Recurrent Neural Networks (RNNs): are artificial neural networks that can process sequential data like speech patterns. RNNs proved very good at modeling temporal dependencies in speech and behavior featuring patterns related to autism over time. RNNs are able to train on sequences of data and learn subtle changes and trends important for understanding and diagnosis in ASD.
-2.	Natural Language Processing (NLP)
-●	Speech and Language Analysis: NLP techniques identify autism-related anomalies by distinguishing atypical speech and language patterns from typical developmental variations.
-3.	Machine Learning
-●	Random Forests and Support Vector Machines (SVMs): Conventional machine learning algorithms classify individuals as ASD or neurotypical by analyzing behavioral and clinical data. Figure 8 illustrates the design and workflow of both Machine Learning and Deep Learning models.
-
-5.2	Datasets
-1.	ABIDE (Autism Brain Imaging Data Exchange)
-●	It hosts extensive MRI datasets from individuals with ASD and neurotypical controls, combining functional and structural brain scans from global sources to enable comparative analysis of neural activity patterns.
- 
-100	Artificial Intelligence in Detecting Autism
-
-Fig. 8  Flowchart shows how Deep Learning and Machine Learning models work.
-
-2.	SSC (Simons Simplex Collection)
-●	It comprises genetic, behavioral, and clinical data from families with a single child diagnosed with ASD, enabling research into autism’s genetic and environmental factors.
-3.	ADIR and ADOS Datasets
-●	ADIR and ADOS: ADOS assesses ASD through structured observation of social communication, repetitive behaviors, and play. ADI-R complements this with a detailed caregiver interview on the child’s behavior and interactions. The ADI-R assesses ASD through a detailed clinical interview, drawing on caregiver reports of the child’s behavior, communication, and social interactions.
-
-6.	Trends in Artificial Intelligence and Machine Learning
-6.1	Explainable AI
- 
-●	Purpose: Explainable AI (XAI) enhances transparency by clarifying how AI systems make decisions—detailing the models, parameters, and data involved. It aids developers, clinicians, and stakeholders in understanding system behavior, identifying errors, and evaluating decision logic.
-●	Transparency:  XAI enhances transparency by enabling users to trace how inputs lead to
-outputs without requiring full comprehension of complex model internals [6].
-Benefits of Explainable AI
-●	Increased Trust:  When clinicians and users grasp how AI makes decisions, it fosters trust
-and encourages its integration into diagnostic workflows.
-●	Informed decision making: It also allows for informed decision-making by clinicians— for example, the use of AI in ASD detection. Clinicians can evaluate the recommendations given by AI better in the context of individual cases.
-Challenges and Limitations
-●	Technical Complexity:
-○	Expertise Required: This demands expertise in computer science or data analytics, posing a challenge for non-experts like general practitioners or policymakers due to the overwhelming technical complexity.
-○	Simplification: AI explanations should be conveyed in plain language, yet many XAI methods remain overly technical, limiting broader audience understanding of system behavior and reasoning.
-●	Legal and Regulatory Concerns
-○	Accountability and Liability: The legal framework for AI accountability remains in flux, and it’s unclear whether XAI can fully address explainability-related legal challenges or influence future precedents.
-○	Regulatory Requirements: Agencies are moving to include XAI in their guidelines, but without a clear regulatory consensus, ethical use remains a pressing concern amid ongoing ambiguity.
-●	Corporate Resistance
-○	Disclosure Challenges: Companies may resist disclosing full AI system details, potentially leading to opaque models with no transparency around training data or operational mechanisms.
-○	Compliance Gaming:  Firms may offer superficial explanations solely to satisfy
-compliance, without genuinely promoting transparency.
-
-6.2	Multimodal Approach
-Combining Data Types
-●	Purpose: Multimodal models that fuse speech, behavioral, MRI, and neuroimaging data enable more accurate and comprehensive ASD diagnoses [11]. Coupled with XAI, they boost interpretability, clinical trust, and diagnostic outcomes.
-●	Holistic Assessment:  Multimodal approaches offer a holistic view of an individual’s
-behavioral, cognitive, and physiological profile, enabling more accurate diagnoses.
-
-Benefits of Multimodal Approaches
-●	Enhanced Accuracy: Integrating diverse data sources reveals more ASD-related traits, and deep analysis of this data sharpens diagnostic model accuracy and precision.
-●	Robustness: Combining diverse data sources minimizes reliance on any single, potentially biased input, while multimodal approaches enhance reliability through cross- modal validation.
-Challenges and Limitations
-●	Data Integration Complexity: Integrating diverse data types demands advanced, often technically complex methods. .
-●	Resource Intensive:  Multimodal approaches demand significant computing power and
-specialized expertise, making them challenging to deploy in low-resource environments.
-
-6.3	Early Diagnosis and Intervention
-Timely Support
-●	Purpose:  AI tools are increasingly used for early ASD diagnosis, enabling timely
-interventions that significantly enhance quality of life.
-●	Early Detection: AI tools can assess diverse data—behavior, milestones, and speech—to detect early signs of autism, enabling clinicians to intervene before major developmental delays arise.
-Benefits of Early Diagnosis and Intervention
-●	Improved Outcomes: Early intervention improves developmental outcomes by addressing issues promptly, enabling better skill-building and symptom management.
-●	Preventative Measures: Early diagnosis gives room for precautionary measures and individualized therapies that might reduce the socio-adversative impacts of ASD on daily functioning and general development.
-Challenges and Limitations
-●	Accuracy of Early Detection:  Early diagnostic tools must be continually validated to
-ensure accurate ASD identification and minimize false results.
-●	Access to Resources: Effective early intervention requires adequate resources and expertise; limited access undermines early diagnosis.
-
-7.	Conclusion
-AI and ML are transforming ASD diagnosis and treatment through early detection, personalized interventions, and deeper insights—yet their use must be guided by strong ethical safeguards to ensure fairness and responsibility. AI’s promise in autism detection must be rooted in safeguarding rights and welfare—ensuring privacy, minimizing bias, and upholding ethics. Progress depends on ethical frameworks, public dialogue, and rigorous research to build systems that advance care while respecting individuals with ASD.
-
-Key Points
-AI and ML-driven transformation
-●	Early Detection:	AI and ML enable early autism detection, allowing timely interventions that can be highly effective.
-●	Personalised Interventions:	It enables personalized treatment plans tailored to each
-individual’s ASD profile. 
-●	Improved Understanding:	AI-driven research uncovers previously hidden patterns and insights into autism’s underlying causes.
-Ethical Considerations
-●	Privacy Issues:	Given the sensitivity of health data, strict safeguards must ensure patient
-confidentiality and data security.
-●	Algorithmic Bias:	AI systems must be designed for fairness and neutrality to ensure accurate diagnoses and equitable treatment for all patients.
-●	Ethical Implications in General:	AI in healthcare must prioritize patient welfare, uphold informed consent, and ensure transparent decision-making.
-Steps towards Responsible Implementation of AI
-●	Ethical Frameworks:	Embed strict ethical standards throughout AI development and deployment in healthcare.
-●	Engagement with Society:	Engaging society in AI’s role in autism detection fosters trust and ensures alignment with societal values.
-●	Additional Research:  Ongoing research is essential to refine AI systems, address ethical
-challenges, and improve healthcare effectiveness.
-These elements are key to responsibly harnessing AI for autism detection and treatment—ensuring fairness, ethical use, and respect for patient rights—ultimately advancing inclusive healthcare for individuals with ASD.
-
-References
-1.	Topol, E. (2019). Deep medicine: how artificial intelligence can make healthcare human again. Hachette UK.
-2.	Roberts, M., Driggs, D., Thorpe, M., Gilbey, J., Yeung, M. et al. (2021). Common pitfalls and recommendations for using machine learning to detect and prognosticate for COVID-19 using chest radiographs and CT scans. Nature Machine Intelligence, 3(3), 199–217.
-3.	Rajpurkar, P., Irvin, J., Ball, R.L., Zhu, K., Yang, B. et al. (2018). Deep learning for chest radiograph diagnosis: A
-retrospective comparison of the CheXNeXt algorithm to practicing radiologists. PLoS medicine, 15(11), e1002686.
-4.	Samek, W., Wiegand, T. and Müller, K.R. (2017). Explainable artificial intelligence: Understanding, visualizing and
-interpreting deep learning models. arXiv preprint arXiv:1708.08296.
-5.	World Health Organization (2024). Ethics and governance of artificial intelligence for health: large multi-modal models. WHO guidance. World Health Organization.
-6.	Dwivedi, R., Dave, D., Naik, H., Singhal, S., Omer, R. et al. (2023). Explainable AI (XAI): Core ideas, techniques,
-and solutions. ACM computing surveys, 55(9), 1–33.
-7.	Foxx, R.M. (2008). Applied behavior analysis treatment of autism: The state of the art. Child and adolescent psychiatric clinics of North America, 17(4), 821–834.
-8.	Akter, T., Satu, M.S., Khan, M.I., Ali, M.H., Uddin, S. et al. (2019). Machine learning-based models for early stage detection of autism spectrum disorders. IEEe Access, 7, 166509–166527.
-9.	Nelson, G.S. (2019). Bias in artificial intelligence. North Carolina medical journal, 80(4), 220–222.
-10.	Golda, A., Mekonen, K., Pandey, A., Singh, A., Hassija, V., Chamola, V. and Sikdar, B. (2024). Privacy and security concerns in generative AI: a comprehensive survey. IEEE Access, 12, 48126–48144.
-11.	El-Sappagh, S., Alonso, J.M., Islam, S.R., Sultan, A.M. and Kwak, K.S et al. (2021). A multilayer multimodal detection
-and prediction model based on explainable artificial intelligence for Alzheimer’s disease. Scientific reports, 11(1), 2660.
+a. Establish a data protection framework with legal backing: The work being done by Justice 
+Srikrishna Committee on data protection law is very opportune and timely. The 7-core principles 
+of data protection and privacy – informed consent, technology agnosticism, data controller 
+accountability, data minimisation, holistic application, deterrent penalties and structured 
+enforcement – are quite comprehensive and should provide a strong privacy protection regime 
+in the country once enacted.  
+b. Establish sectoral regulatory frameworks: Apart from having a central privacy protection law, due 
+to diverse and fast changing nature of the technology, sectoral regulatory frameworks may also 
+act as additional protection to user privacy and security. Japan and Germany have developed 
+new frameworks applicable to specific AI issues such as regulating next generation robots and 
+self-driving cars respectively.  
+c. Benchmark national data protection and privacy laws with international standards: European 
+Union’s General Data Protection Regulation (GDPR) guidelines, which have been enforced in 
+May 2018, encourage design of less-privacy invasive systems. French laws give a right to 
+explanation for administrative algorithmic decisions, making it much more comprehensive than 
+GDPR on administrative decisions. India’s privacy protection regime will have to be continually 
+updated to reflect understanding of new risks and their impact.  
+d. Encourage AI developers to adhere to international standards: Leaders and practitioners from 
+across the world have come together to frame standards for safe and privacy preserving AI. The 
+Global Initiative on Ethics of Autonomous and Intelligent Systems of the IEEE has a chapter on 
+‘Personal Data and Individual Access Control in Ethically Aligned Design’. Indian enterprises and 
+developers need to build these standards into AI design itself. 
+e. Encourage self-regulation: Data Privacy Impact Assessment Tools can be used by AI developers 
+and enterprises adopting AI solutions to manage privacy risks.
+f. Invest and collaborate in privacy preserving AI research: New mathematical models for 
+preserving privacy are being researched upon where risks of data exploitation and personal 
+identification (from an anonymised dataset) can be reduced by limiting information one can gain 
+from released data, irrespective of amount of side information available otherwise. India should 
+collaborate on areas of research like Differential Privacy, Privacy by Design, Safety-Critical AI 
+and Multi-Party Computations which enable protection of privacy despite data sharing at a wide 
+scale.  
+g. Spread awareness: Privacy has been termed as a fundamental right by the Supreme Court of 
+India. The protection of this right with its multiple facets in a fast-changing technological 
+environment will not just depend on State enforcement but by also making the citizens aware of 
+their rights and how they can protect them. People often unknowingly give consent to sharing 
+their data which they would not have ordinarily done had they known the purpose their data were 
+being put to. There is an urgent need to spread awareness among the individuals about the 
+importance of consent, ethics and privacy while dealing with technology. A pan-India campaign 
+in multiple languages, and inclusion of privacy rights in school and college curriculum can serve 
+as effective mass outreach mediums to spread awareness.
